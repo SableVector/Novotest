@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>novotest</title>
+	<!-- Подключение стилей сайта -->
+	<link rel="stylesheet" href="css/style.min.css">
+	<!-- Подключение скриптов -->
+	<script defer src="js/main.min.js"></script>
+</head>
+
+<style>
+	body {
+		background-color: beige;
+	}
+
+	.wrapper__container {
+		width: 100%;
+	}
+	
+	.wrapper__container h2 {
+		font-size: 36px;
+		font-weight: 700;
+		margin-bottom: 20px;
+	}
+
+	.box {
+		display: flex;
+		flex-direction: column;
+		padding: 50px 0 0;
+	}
+
+	.box:not(:last-child) {
+		margin-bottom: 30px;
+	}
+
+	.wrapper__container a {
+		transition: color .3s ease-in-out;
+		padding: 5px;
+		font-size: 24px;
+		margin-left: 30px;
+	}
+
+	.wrapper__container a:hover {
+		color: cadetblue;
+	}
+</style>
+
+<body>
+	<div class="wrapper__container">
+		<div class="box">
+			<h2>Основные страницы</h2>
+			<a href="home.html" target="_blank">Home</a>
+		</div>
+		<hr>
+		<div class="box">
+			<h2>Попап страницы</h2>
+		</div>
+	</div>
+</body>
+
+</html>

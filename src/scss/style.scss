@@ -1,0 +1,51 @@
+// === Стили Глобальные ===
+@import "libs/reset";
+// @import "libs/normalize";
+@import "../settings/scss/functions";
+@import "../settings/scss/variables";
+@import "../settings/scss/mixin";
+@import "../components/common/common";
+
+//=== Стилизация плагина Tippy.js ===
+// @import "libs/tippy";
+
+//=== Стилизация плагина Swiper ===
+// @import "libs/swiper";
+
+//=== Стилизация плагина noUiSlider(range) ===
+// @import '../../node_modules/nouislider/dist/nouislider';
+// @import "libs/noUiSlider";
+
+//=== Подключение локальных шрифтов ===
+// @import "blocks/fonts";
+
+//=== Подключение меню бургера ===
+// @import "../components/common/burger-menu/_burger-menu";
+
+//=== Подключение звездного меню ===
+// Снипет (HTML): rating
+// @import "../components/common/rating/_rating";
+
+//=== Подключение Select ===
+// Снипет (HTML): select
+// @import "../components/common/select/_select";
+
+//=== Подключение Checkbox ===
+// Снипет (HTML): checkbox
+// @import "../components/common/checkbox/_checkbox";
+
+//=== Подключение стилей количества ===
+// Снипет (HTML): quantity
+// @import "../components/common/quantity/_quantity";
+
+//=== Подключение стилей Табов ===
+// Снипет (HTML): tabs
+// @import "../components/common/tabs/_tabs";
+
+//=== Подключение стилей Спойлеров ===
+// Снипет (HTML): spoller
+// @import "../components/common/spollers/_spollers";
+
+// === Стили Блоков ===
+@import "../components/sections/header/header";
+@import "../components/sections/footer/footer";
